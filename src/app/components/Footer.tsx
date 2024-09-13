@@ -13,7 +13,7 @@ const Footer: React.FC = () => (
     </a>
     <br />
     <a
-      href="CCC"
+      href="https://github.com/joao-debarro"
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-400 hover:underline mt-2 block"

@@ -1,4 +1,7 @@
+"use client";
+
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 import Link from "next/link";
 
 const Footer = dynamic(() => import('./components/Footer'), {
@@ -9,10 +12,12 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 text-gray-800">
       <header className="text-center">
-        <img
-          src="/joao.jpg"
+        <Image
+          src="/joao.webp"
+          width={150}
+          height={150}
           alt="João Pedro Damacio"
-          className="w-40 h-40 rounded-full border-4 border-blue-600 mb-4"
+          className="rounded-full border-4 border-blue-600 mb-4"
         />
         <h1 className="text-4xl font-bold text-blue-600">
           Olá, eu sou João Pedro Damacio!
